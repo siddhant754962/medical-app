@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Step 1: Load your trained model
-with open("D:\data science\projects seriis\linear reg stock pred\insurance_model.pkl", "rb") as file:
+with open("\insurance_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("Medical Insurance Cost Prediction App 💰🏥")
